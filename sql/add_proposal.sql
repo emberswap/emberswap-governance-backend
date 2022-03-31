@@ -1,0 +1,20 @@
+INSERT OR ROLLBACK INTO proposals
+(
+	proposalId,
+	title,
+	content,
+	options,
+	snapshotBlock,
+	endBlock,
+	histogram
+)
+VALUES
+(
+	:proposalId,
+	:title,
+	:content,
+	:options,
+	:snapshotBlock,
+	:endBlock,
+	:histogram
+)
