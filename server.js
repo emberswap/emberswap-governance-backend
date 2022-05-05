@@ -1,6 +1,6 @@
 // Include support for express applications.
 const express = require("express");
-const basicAuth = require('express-basic-auth')
+const basicAuth = require('express-basic-auth');
 
 // Create an instance of an express application.
 const app = express();
@@ -72,6 +72,7 @@ const setup = async function () {
 
   return app;
 };
+
 
 app.setup = setup;
 
